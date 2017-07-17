@@ -1,0 +1,287 @@
+﻿/* ----------------------------------------
+Style: S2 Expressive
+Stylesheet by: moonshadow_87
+Created for crazy-accel.livejournal.com
+Please no stealing & no reposting code as yours.
+---------------------------------------- */
+
+/*  Fumi #9933cc; #c78fe3;
+    Gocchi #0099cc; #73c7e3;
+    Hasshi #e70618; #f17781;
+    Tsuka #ffcc33; #ffe38f;
+    Tottsu #ff6699; #ffabc7; */
+
+/*--------------- Global ---------------*/
+body {
+    font-family: Arial, "hirakakupro-w3", "ms pgothic",  sans-serif;
+    font-size: 12px;
+    background-image: url(https://res.cloudinary.com/crazyaccel/image/upload/layout/bg_stars2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    background-color: #191919;
+}
+pre {
+    font-family: "Verdana", Arial, sans-serif;
+}
+hr.divider {
+    border: 0;
+    height: 2px;
+    width: 90%;
+    color: #333333;
+    background: #333333;
+    background-image: -webkit-linear-gradient(left, #eee, #333, #eee); 
+    background-image:    -moz-linear-gradient(left, #eee, #333, #eee); 
+    background-image:     -ms-linear-gradient(left, #eee, #333, #eee); 
+    background-image:      -o-linear-gradient(left, #eee, #333, #eee); 
+}
+a {
+    color: #2266EE;
+}
+#alpha dt {
+    font-weight: bold;
+}
+#alpha dd {
+    margin-left: 2em;
+}
+
+/*--------------- Page Layout ---------------*/
+#page {
+    width: 960px;
+    margin: auto;
+}
+#content {
+    background-color: #FDFDFD;
+    color: #151515;
+    margin-bottom: 0;
+}
+.layout-tw #content-inner {
+    background-image: none;
+}
+#footer {
+    background-color: #FDFDFD;
+    background-image: url(https://res.cloudinary.com/crazyaccel/image/upload/layout/footer2.jpg);
+    background-repeat: no-repeat;
+}
+.stream-header .prevnext {
+    display: none;
+}
+
+/*--------------- Header ---------------*/
+#header, #header-inner, #header-name, #header-description {
+    text-align: center;
+}
+#header {
+    background-image: none !important;
+    background-color: #FDFDFD;
+    height: 365px;
+    position: relative;
+}
+#header-inner {
+    background: url(https://res.cloudinary.com/crazyaccel/image/upload/layout/header_ebi1.jpg) no-repeat;
+    padding-left: 0px;
+    height: 350px;
+    width: 960px;
+}
+#header-text {
+    top: 200px;
+    margin: 0;
+    max-width: 960px;
+    left: 100px;
+    font-family: "Century Gothic", Arial, sans-serif;
+}
+#header-name, #header-description {
+    display: none;
+    font-family: "Century Gothic", Arial, sans-serif;
+}
+#header-text ul.nav {
+    position: absolute;
+    bottom: 0px;
+    left: 260px;
+    margin: auto;
+    width: auto;
+    padding: 5px 0px;
+    background-color: #ffffff;
+    border: 2px solid #4c4c4c;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: normal;
+    text-decoration: none;
+    color: #000000;
+}
+#header-text ul.nav a, ul.nav a:visited {
+    color: #000000; 
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    padding: 10px;
+}
+#header-text ul.nav a:hover {
+    text-decoration: underline;  
+}
+#header-text ul.nav .current a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+#header .nav .item {
+    border-left-color: #000000;
+}
+#header .nav .first {
+    border-left: none;
+    padding-left: 15px;
+}
+#header .nav .first a:hover {
+    background-color: #96BBFF;
+}
+#header .nav a:hover[href*=calendar] {
+    background-color: #C19FFF;
+}
+#header .nav a:hover[href*=friends] {
+    background-color: #FFABAB;
+}
+#header .nav a:hover[href*=profile] {
+    background-color: #FFAAEE;
+}
+#header .nav a:hover[href*=memories] {
+    background-color: #FFEE66;
+}
+
+/*--------------- Entries ---------------*/
+.asset-content a:hover {
+    color: #FF00FF;
+}
+.asset-tags-list a:hover {
+    background-color: #2266EE;
+    color: #ffffff;
+}
+.post-asset .asset-body blockquote {
+    font-size: 11px;
+    background: url(https://res.cloudinary.com/crazyaccel/image/upload/layout/quote2.gif) repeat-y top left;
+}
+.asset-header, .asset-meta, .lj-currents, .asset-tags  {
+    font-family: "century gothic", arial, "hirakakupro-w3", "ms pgothic", sans-serif;
+}
+.user-icon, .lj-view-friends .user-icon {
+    float: right;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 15px;
+}
+.asset-header {
+    margin-top: 15px;
+}
+.asset-name a {
+    font-weight: bold;
+}
+.asset-name {
+    background-image: url(https://res.cloudinary.com/crazyaccel/image/upload/layout/title_star.png);
+    background-repeat: no-repeat;
+    background-position: 2px 4px;
+    padding: 0 0 0 30px;
+}
+h2.page-header2 {
+    margin-bottom: 5px;
+}
+.asset-body table {
+    border-collapse:collapse;
+}
+.asset-body table, .asset-body th, .asset-body td {
+    border: 2px solid #191919;
+}
+.asset-body td {
+    padding: 5px 10px;
+}
+.asset-body th {
+    background-color: #6E6E6E;
+    color: #ffffff;
+    text-align: center;
+}
+.lj-currents img {
+    display: none;
+}
+.lj-currents {
+    color: #5E5E5E;
+}
+
+/*--------------- Sidebar ---------------*/
+#beta {
+    font-family: "century gothic", "hirakakupro-w3", Arial, "ms pgothic", sans-serif;
+}
+.widget h3.widget-header, h3.widget-header a, h3.widget-header a:visited, .about-me-widget, .powered-widget {
+    float: none;
+    text-align:center;
+}
+.widget {
+    width: 186px;
+    background-color: #f9f9f9;
+    border-left: none !important;
+    border:2px solid #4c4c4c;
+    -webkit-border-radius: 0px 15px 15px 0px;
+    -moz-border-radius: 0px 15px 15px 0px;
+    border-radius: 0px 15px 15px 0px;
+    font-size: 12px;
+}
+.widget .widget-header {
+    background-image: none;
+    background-color: #6E6E6E;
+    font-size: 14px;
+    color: #ffffff;
+}
+.designed-widget {
+    display: none;
+}
+.calendar-widget {
+    font-size: 14px; 
+}
+.powered-widget {
+    padding-top: 10px; 
+}
+.widget-content .user-pic {
+    float: none;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.archive-widget .widget-list .item {
+    width: auto !important;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-image: url(https://res.cloudinary.com/crazyaccel/image/upload/layout/list_star.png);
+    background-repeat: no-repeat;
+    background-position: 0px 3px;
+    padding-left: 1em;
+}
+.archive-widget .widget-list {
+    margin-left: 5px;
+}
+.archive-widget .widget-content {
+    padding-left: 0px;
+}
+.customtext-widget .widget-content {
+    padding-left: 10px;
+}
+.categories-widget {
+    line-height: 0.75em;
+}
+
+/*--------------- Other Pages ---------------*/
+.lj-view-tags #alpha-inner ul li{
+    list-style-image:url(https://res.cloudinary.com/crazyaccel/image/upload/layout/list_star.png);
+    padding: 2px 0px;
+}
+.lj-view-archive .asset-body table, .lj-view-archive .asset-body table td {
+    border-color: #4c4c4c;
+}
+.lj-view-archive .asset-body table td.yearmonth {
+    background-color: #6E6E6E;
+    color: #ffffff;
+}
+.lj-view-archive .asset-body table td.yearmonth a {
+    color: #ffffff;
+}
+.lj-view-archive .asset-body table td.yeardate a {
+    font-weight: bold;
+}
+
+
